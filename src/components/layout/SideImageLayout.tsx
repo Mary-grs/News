@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import image from "../../public/sign in/image.png"; 
+import image from "../../public/sign in/image.png";
 
-interface LoginLayoutProps {
-  children: '';
+interface SideImageLayoutProps {
+  children: "";
 }
 
-const LoginLayout: React.FC<LoginLayoutProps> = ({ children }) => {
+const SideImageLayout: React.FC<SideImageLayoutProps> = ({ children }) => {
   return (
     <div className="flex h-screen">
       <div className="w-[40%] flex items-center justify-center relative bg-[#500C0B]">
@@ -38,4 +38,4 @@ const LoginLayout: React.FC<LoginLayoutProps> = ({ children }) => {
   );
 };
 
-export default LoginLayout;
+export default SideImageLayout;
