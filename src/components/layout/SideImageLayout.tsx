@@ -3,7 +3,7 @@ import Image from "next/image";
 import image from "../../public/sign in/image.png";
 
 interface SideImageLayoutProps {
-  children: "";
+  children: React.ReactNode;
 }
 
 const SideImageLayout: React.FC<SideImageLayoutProps> = ({ children }) => {
