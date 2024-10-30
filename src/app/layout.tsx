@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import SideImageLayout from "@/components/layout/SideImageLayout";
 import LoginForm from "@/components/sections/LoginForm";
+import DashboardLayout from "@/components/layout/DashboardLayout";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,9 +31,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <SideImageLayout>
+        <DashboardLayout>
           <LoginForm />
-        </SideImageLayout>
+        </DashboardLayout>
       </body>
     </html>
   );
